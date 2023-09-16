@@ -1,0 +1,24 @@
+.root-layout {
+
+    // &__sidebar {
+    //     overflow: auto;
+    //     height: 100vh;
+    //     width: 100vh;
+    //     position: fixed;
+    //     left: 0;
+    //     top: 0;
+    //     bottom: 0;
+    // }
+    background-color: #ffffff;
+
+    &__icon { height: 32; margin: 16 ; color: "#ffffff" }
+}
+
+.site-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width:100%;
+    background-color: #f0f0f0;
+    color: #000000;
+}

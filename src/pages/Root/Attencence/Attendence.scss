@@ -1,0 +1,122 @@
+.attendence {
+
+    &__qr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+
+        &__info {
+            display: flex;
+            flex-direction: column;
+            align-self: baseline;
+            margin-bottom: 30px;
+
+            bold {
+                font-weight: bold;
+            }
+        }
+
+        &__timer {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            padding-top: 30px;
+
+            bold {
+                font-weight: bold;
+            }
+        }
+
+        &__code {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+
+        }
+    }
+
+    &__generegate-qr-button{
+        margin-bottom: 10px;
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    &__form-title {
+        display: flex;
+        color: white;
+        font-size: 2em;
+        padding-bottom: 40px;
+        font-style: bold;
+        font-weight: bold;
+    }
+
+    &__form-heading {
+        display: flex;
+        color: white;
+        font-size: 1em;
+        margin-bottom: 20px;
+        font-style: bold;
+        font-weight: bold;
+    }
+
+    &__form-input {
+        display: contents;
+        width: 100%;
+
+        input {
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #a4a4a4;
+        background-color: #ffffff;
+        padding: 0 10px;
+        margin-bottom: 10px;
+        font-size: 1em;
+        color: #232323 !important;
+        }
+    }
+
+    &__form-button {
+        padding-top: 20px;
+        button {
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        background-color: #4259a3;
+        color: white;
+        font-size: 1em;
+        margin-bottom: 10px;
+        cursor: pointer;
+        }
+    }
+
+    &__select {
+        display: contents;
+        width: 100%;
+
+        select {
+            width: 106%;
+            height: 40px;
+            border-radius: 5px;
+            border: 1px solid #a4a4a4;
+            background-color: #ffffff;
+            color: #232323 !important;
+            padding: 0 10px;
+            margin-bottom: 10px;
+            font-size: 1em;
+        }
+    }
+
+}

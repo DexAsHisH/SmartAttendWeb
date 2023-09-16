@@ -1,0 +1,24 @@
+.dashboard {
+
+    &__stats {
+
+        margin: 0 0 1rem 0;
+    }
+
+    &__subject_percentage_card {
+        display: flex;
+        gap: 20px
+    }
+
+    &__table-filter {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 1rem;
+        gap: 0.5rem;
+    }
+
+    &__attendence-title {
+        margin-top: 30px;
+    }
+}

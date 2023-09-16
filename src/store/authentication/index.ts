@@ -1,0 +1,1 @@
+export { setAuthenticated, authenticationReducer } from './slice';
